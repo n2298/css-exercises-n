@@ -4,7 +4,7 @@ The second element: blue text and a font size of 36px
 The third element: in addition to the styles for all odd numbered elements, add a font size of 24px
 The fourth element: a light green background, a font size of 24px, and bold */
 
-p{
+p>.odd{
     background: rgb(255,100,100);
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
@@ -14,7 +14,7 @@ p{
    font-size: 36px; 
 }
 
-#third{
+p:nth-of-type(2){
     font-size:24px;
 }
 
